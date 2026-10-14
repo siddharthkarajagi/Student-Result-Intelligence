@@ -1,0 +1,21 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.env
+.streamlit/secrets.toml
+
+# Student result files and generated reports
+data/
+*.pdf
+*.xlsx
+*.csv
+*.docx
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
